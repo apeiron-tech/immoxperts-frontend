@@ -123,6 +123,7 @@ const PropertyList = ({ searchParams }) => {
             street: streetName,  // Full normalized street name
             commune: communeName // Normalized commune name
           }
+        });
 
         const formatted = response.data.map(mutation => ({
           id: mutation.idmutation,
